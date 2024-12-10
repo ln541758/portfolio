@@ -28,6 +28,7 @@
       >
       <button
         class="fadein-bot fade-500 flex items-center py-2 px-4 mx-auto text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 md:mx-0 text-amber-200 border-amber-200 hover:bg-amber-200 hover:bg-opacity-10 bg-transparent focus:outline-none w-fit"
+        @click="downloadResume()"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +51,7 @@
       <img
         alt="avatar"
         fetchpriority="high"
-        class="w-[500px] h-[500px] rounded-full border-4 border-amber-200 object-cover"
+        class="w-[400px] h-[400px] rounded-full border-4 border-amber-200 object-cover"
         src="img/003.png"
       />
     </div>
@@ -78,18 +79,18 @@ export default {
       this.tick();
     });
   },
-  methods: {
+methods: {
     tick() {
       let typewriter = this.$refs.typewriter;
 
       if (!typewriter) {
-        return; // 如果无法获取 typewriter 元素，则结束函数
+        return; // End the function if the typewriter element cannot be accessed
       }
 
       let i = this.loopNum % this.toRotate.length;
       let fullTxt = this.toRotate[i];
 
-      // 根据当前状态，更新文本内容
+      // Update the text content based on the current state
       this.txt = this.isDeleting
         ? fullTxt.substring(0, this.txt.length - 1)
         : fullTxt.substring(0, this.txt.length + 1);
@@ -99,21 +100,28 @@ export default {
       let delta = 200 - Math.random() * 100;
 
       if (this.isDeleting) {
-        delta /= 2; // 如果正在删除文本，则减少延迟时间
+        delta /= 2; // Reduce delay time if deleting text
       }
 
       if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period; // 如果已经完全显示文本，则将延迟时间设置为固定的周期
-        this.isDeleting = true; // 切换到删除文本的状态
+        delta = this.period; // Set the delay time to a fixed period if the full text is displayed
+        this.isDeleting = true; // Switch to the deleting state
       } else if (this.isDeleting && this.txt === "") {
-        this.isDeleting = false; // 切换回添加文本的状态
-        this.loopNum++; // 增加循环次数
-        delta = 500; // 设置删除完整文本后的延迟时间
+        this.isDeleting = false; // Switch back to the adding text state
+        this.loopNum++; // Increment the loop count
+        delta = 500; // Set the delay time after completely deleting the text
       }
 
       setTimeout(() => {
-        that.tick(); // 递归调用 tick() 函数，进行下一次文本更新
+        that.tick(); // Recursively call the tick() function for the next text update
       }, delta);
+    },
+
+    downloadResume() {
+      const link = document.createElement("a");
+      link.href = "/resume.pdf"; // Path to the local resume file
+      link.download = "Resume_Lilian.pdf"; // File name for the downloaded file
+      link.click();
     },
   },
 };
