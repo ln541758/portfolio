@@ -12,7 +12,17 @@
             >Lilian</span
           >
         </button>
-        <div class="flex md:order-2 fadein-bot">
+        <div class="flex md:order-2 fadein-bot space-x-3">
+          <a
+            href="https://www.linkedin.com/in/yinshan-lin-lilian/"
+            target="_blank"
+          >
+            <img
+              class="w-9 rounded-full"
+              src="img/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
           <a href="https://github.com/ln541758" target="_blank"
             ><img
               class="w-9 rounded-full"
