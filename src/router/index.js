@@ -15,16 +15,22 @@ const routes = [
     meta: { title: 'About' }
   },
   {
+    path: '/projects',
+    name: 'projects',
+    component: () => import('../views/ProjectsView.vue'),
+    meta: { title: 'Projects' }
+  },
+  {
     path: '/portfolio',
     name: 'portfolio',
     component: () => import('../views/PortfolioView.vue'),
     meta: { title: 'Portfolio' }
   },
   {
-    path: '/blog',
-    name: 'blog',
-    component: () => import('../views/BlogView.vue'),
-    meta: { title: 'Blog' }
+    path: '/research',
+    name: 'research',
+    component: () => import('../views/ResearchView.vue'),
+    meta: { title: 'Research' }
   },
   {
     path: '/read/:slug/:id',
