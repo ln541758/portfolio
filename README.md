@@ -1,6 +1,6 @@
 
 
- <img src="img/portfolio-portfolio_v1.png" alt="Logo" >
+ <img src="./public/img/portfolio-portfolio_v1.png" alt="Logo" >
 
 
 # Lilian's Personal Portfolio
