@@ -8,120 +8,114 @@ export default {
           id: 1,
           name: "HTML",
           imageUrl: "https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
-          status: "掌握",
+          status: "Proficient",
         },
         {
           id: 2,
           name: "CSS",
           imageUrl: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
-          status: "掌握",
-        },
-        {
-          id: 21,
-          name: "SASS",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "掌握",
-        },
-        {
-          id: 91,
-          name: "LESS",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "掌握",
-        },
-        {
-          id: 91,
-          name: "uni-app",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "掌握",
-        },
-        {
-          id: 91,
-          name: "Canvas",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "掌握",
-        },
-        {
-          id: 91,
-          name: "Vite",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "掌握",
-        },
-        {
-          id: 91,
-          name: "Hexo",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "掌握",
-        },
-        {
-          id: 4,
-          name: "Javascript",
-          imageUrl:
-            "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
-          status: "掌握",
-        },
-        {
-          id: 91,
-          name: "TypeScript.js",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "掌握",
-        },
-        {
-          id: 7,
-          name: "VueJS",
-          imageUrl:
-            "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp",
-          status: "掌握",
-        },
-        {
-          id: 9,
-          name: "NodeJS",
-          imageUrl:
-            "https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png",
-          status: "掌握",
-        },
-        {
-          id: 91,
-          name: "Express.js",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "掌握",
-        },
-        {
-          id: 12,
-          name: "ReactJS",
-          imageUrl:
-            "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-          status: "熟悉",
+          status: "Proficient",
         },
         {
           id: 3,
-          name: "PHP",
+          name: "JavaScript",
           imageUrl:
-            "https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png",
-          status: "了解",
+            "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
+          status: "Proficient",
         },
         {
-          id: 31,
+          id: 4,
+          name: "TypeScript.js",
+          imageUrl: "https://img.icons8.com/fluency/48/typescript--v1.png",
+          status: "Proficient",
+        },
+        {
+          id: 5,
+          name: "VueJS",
+          imageUrl:
+            "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp",
+          status: "Proficient",
+        },
+        {
+          id: 6,
+          name: "NodeJS",
+          imageUrl:
+            "https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png",
+          status: "Proficient",
+        },
+        {
+          id: 7,
+          name: "Express.js",
+          imageUrl: "https://img.icons8.com/nolan/64/express-js.png",
+          status: "Proficient",
+        },
+        {
+          id: 8,
+          name: "ReactJS",
+          imageUrl:
+            "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+          status: "Proficient",
+        },
+        {
+          id: 9,
+          name: "Python",
+          imageUrl: "https://img.icons8.com/color/48/python--v1.png",
+          status: "Proficient",
+        },
+        {
+          id: 10,
           name: "Java",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "了解",
+          imageUrl:
+            "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png",
+          status: "Proficient",
         },
         {
-          id: 31,
-          name: "Sequlize",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "了解",
+          id: 11,
+          name: "C/C++",
+          imageUrl: "https://img.icons8.com/fluency/48/c-plus-plus-logo.png",
+          status: "Proficient",
         },
         {
-          id: 31,
-          name: "linux",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "了解",
+          id: 12,
+          name: "C#",
+          imageUrl: "https://img.icons8.com/color/48/c-sharp-logo.png",
+          status: "Proficient",
         },
         {
-          id: 31,
-          name: "其他前端生态圈",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "了解",
+          id: 13,
+          name: "Flask",
+          imageUrl: "https://img.icons8.com/nolan/64/flask.png",
+          status: "Proficient",
+        },
+        {
+          id: 14,
+          name: "React Native",
+          imageUrl: "https://img.icons8.com/nolan/64/react-native.png",
+          status: "Proficient",
+        },
+        {
+          id: 15,
+          name: "Firebase",
+          imageUrl: "https://img.icons8.com/color/48/firebase.png",
+          status: "Proficient",
+        },
+        {
+          id: 16,
+          name: "Rest API",
+          imageUrl: "https://img.icons8.com/nolan/64/api-settings.png",
+          status: "Proficient",
+        },
+        {
+          id: 17,
+          name: "Unity",
+          imageUrl: "https://img.icons8.com/nolan/64/unity.png",
+          status: "Proficient",
+        },
+        {
+          id: 18,
+          name: "Blender",
+          imageUrl: "https://img.icons8.com/fluency/48/blender-3d.png",
+          status: "Proficient",
         },
       ],
       tools: [
@@ -135,7 +129,7 @@ export default {
         {
           id: 2,
           name: "GitHub",
-          imageUrl: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+          imageUrl: "https://img.icons8.com/nolan/64/github.png",
           status: "Git Hosting",
         },
         {
@@ -154,20 +148,107 @@ export default {
         {
           id: 5,
           name: "MongoDB",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
+          imageUrl: "https://img.icons8.com/color/48/mongo-db.png",
           status: "Database",
         },
         {
-          id: 5,
-          name: "码云GITEE",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "Git Hosting",
+          id: 6,
+          name: "Firestore",
+          imageUrl: "https://img.icons8.com/color/48/cloud-firestore.png",
+          status: "Database",
+        },
+        {
+          id: 7,
+          name: "AWS",
+          imageUrl: "https://img.icons8.com/color/48/amazon-web-services.png",
+          status: "Cloud Services",
+        },
+        {
+          id: 8,
+          name: "Redis",
+          imageUrl: "https://img.icons8.com/color/48/redis--v1.png",
+          status: "Database",
+        },
+        {
+          id: 9,
+          name: "Maven",
+          imageUrl: "https://img.icons8.com/water-color/50/maven-ios.png",
+          status: "Management Tools",
+        },
+        {
+          id: 10,
+          name: "ArcGIS",
+          imageUrl: "img/arcgis.png",
+          status: "Data Analysis",
+        },
+        {
+          id: 11,
+          name: "SPSS",
+          imageUrl: "img/spss.png",
+          status: "Data Analysis",
+        },
+      ],
+      design: [
+        {
+          id: 1,
+          name: "Revit",
+          imageUrl: "img/revit.png",
+          status: "Architecture Design",
+        },
+        {
+          id: 2,
+          name: "Dynamo",
+          imageUrl: "img/dynamo.png",
+          status: "Visual Programming",
+        },
+        {
+          id: 3,
+          name: "Rhinoceros",
+          imageUrl: "img/rhino.svg",
+          status: "3D Modeling",
+        },
+        {
+          id: 4,
+          name: "Grasshopper",
+          imageUrl: "img/grasshopper.png",
+          status: "Parametric Design",
         },
         {
           id: 5,
-          name: "其他...",
-          imageUrl: "http://www.zhouyi.run/assets/maliao-8bcf1e95.webp",
-          status: "...",
+          name: "Sketchup",
+          imageUrl: "https://img.icons8.com/color/48/google-sketchup.png",
+          status: "3D Modeling",
+        },
+        { id: 6, name: "Vray", imageUrl: "img/vray.png", status: "Rendering" },
+        {
+          id: 7,
+          name: "Enscape",
+          imageUrl: "img/enscape.png",
+          status: "Real-Time Rendering",
+        },
+        {
+          id: 8,
+          name: "Lumion",
+          imageUrl: "https://img.icons8.com/color/48/lumion.png",
+          status: "Visualization",
+        },
+        {
+          id: 9,
+          name: "Photoshop",
+          imageUrl: "https://img.icons8.com/color/48/adobe-photoshop--v1.png",
+          status: "Image Editing",
+        },
+        {
+          id: 10,
+          name: "Illustrator",
+          imageUrl: "https://img.icons8.com/color/48/adobe-illustrator--v1.png",
+          status: "Vector Graphics",
+        },
+        {
+          id: 11,
+          name: "InDesign",
+          imageUrl: "https://img.icons8.com/color/48/adobe-indesign--v1.png",
+          status: "Layout Design",
         },
       ],
     };
@@ -204,7 +285,7 @@ export default {
 
         <!-- Right Text Section -->
         <div
-          class="mb-3 md:mb-7 fadein-left fadeins-1 max-w-prose mx-auto md:ml-8 "
+          class="mb-3 md:mb-7 fadein-left fadeins-1 max-w-prose mx-auto md:ml-8"
         >
           <!-- Name -->
           <h1 class="text-3xl md:text-3xl font-bold bg-gradient-to-r">
@@ -284,6 +365,17 @@ export default {
                 Tools
               </button>
             </li>
+            <li class="mr-2">
+              <button
+                class="inline-block px-4 py-3 rounded-lg hover:text-white"
+                :class="{
+                  'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 3,
+                }"
+                @click="activeTab = 3"
+              >
+                Design Software
+              </button>
+            </li>
           </ul>
         </div>
         <div v-show="activeTab === 1">
@@ -331,6 +423,46 @@ export default {
             class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12"
           >
             <div v-for="item in tools" :key="item.id">
+              <div
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3"
+              >
+                <div
+                  class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in"
+                >
+                  <img
+                    alt="HTML"
+                    loading="lazy"
+                    width="32"
+                    height="32"
+                    decoding="async"
+                    data-nimg="1"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
+                    :src="item.imageUrl"
+                    style="color: transparent"
+                  />
+                </div>
+                <div class="flex items-center text-sm md:text-base lg:text-lg">
+                  <div
+                    class="tech font-medium text-secondary transition-all duration-300 translate-y-0"
+                  >
+                    {{ item.name }}
+                  </div>
+                  <div
+                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm"
+                  >
+                    {{ item.status }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div v-show="activeTab === 3">
+          <div
+            class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12"
+          >
+            <div v-for="item in design" :key="item.id">
               <div
                 class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3"
               >
