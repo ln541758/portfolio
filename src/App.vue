@@ -29,6 +29,13 @@
               src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png"
               alt="github"
           /></a>
+          <a href="https://scholar.google.com/citations?user=DwFzkCcAAAAJ" target="_blank"
+            ><img
+              class="w-9 rounded-full"
+              src="https://img.icons8.com/ios/50/google-scholar--v2.png"
+              alt="google_scholar"
+              style="filter: invert(1); "
+          /></a>
         </div>
         <div
           class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1"
