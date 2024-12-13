@@ -50,36 +50,12 @@
 
 <script>
 import ArticleList from "@/components/ArticleList.vue";
+import { articles } from "@/components/Articles.js"; // Replace with the correct path to your articles.js file
 
 export default {
   data() {
     return {
-      articles: [
-        {
-          id: "1",
-          title: "Article One Title",
-          desc: "This is the description of article one. It provides a brief summary of the article.",
-          slug: "article-one",
-          image: "https://picsum.photos/200/200",
-          date: "December 12, 2024",
-        },
-        {
-          id: "2",
-          title: "Article Two Title",
-          desc: "This is the description of article two. It provides a brief summary of the article.",
-          slug: "article-two",
-          image: "https://picsum.photos/200/200",
-          date: "December 11, 2024",
-        },
-        {
-          id: "3",
-          title: "Article Three Title",
-          desc: "This is the description of article three. It provides a brief summary of the article.",
-          slug: "article-three",
-          image: "https://picsum.photos/200/200",
-          date: "December 10, 2024",
-        },
-      ],
+      articles, // Directly use the imported articles array
     };
   },
   components: {
