@@ -1,8 +1,33 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import ResearchView from '../views/ResearchView.vue';
 import ArticleView from '../views/ArticleView.vue';
+import HomeView from '../views/HomeView.vue'
 
 const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: HomeView,
+    meta: { title: 'Home' }
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: () => import('../views/AboutView.vue'),
+    meta: { title: 'About' }
+  },
+  {
+    path: '/projects',
+    name: 'projects',
+    component: () => import('../views/ProjectsView.vue'),
+    meta: { title: 'Projects' }
+  },
+  {
+    path: '/portfolio',
+    name: 'portfolio',
+    component: () => import('../views/PortfolioView.vue'),
+    meta: { title: 'Portfolio' }
+  },
   {
     path: '/research',
     name: 'research',
