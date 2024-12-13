@@ -12,10 +12,10 @@
             ></div>
             {{ article.date }}
           </div>
-          <h1 class="text-sm md:text-md text-amber-200 font-bold mb-2 paraf">
+          <h1 class="text-sm md:text-md text-amber-200 font-bold mb-2">
             {{ article.title }}
           </h1>
-          <div class="text-sm hidden md:block paraf">
+          <div class="text-sm hidden md:block">
             {{ article.desc }}
           </div>
         </div>
@@ -41,15 +41,8 @@ export default {
 </script>
 
 <style scoped>
+/* Removed truncation styling */
 .paraf {
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-@media (min-width: 768px) {
-  .paraf {
-    display: -webkit-box;
-  }
+  white-space: normal;
 }
 </style>
