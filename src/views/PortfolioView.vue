@@ -18,21 +18,31 @@ export default {
         {
           id: 3,
           name: "Group 3",
-          images: ["7", "8", "9"],
+          images: ["16", "17", "18"],
         },
         {
           id: 4,
           name: "Group 4",
-          images: ["10", "11"],
+          images: ["19", "20", "21"],
         },
         {
           id: 5,
           name: "Group 5",
-          images: ["12", "13"],
+          images: ["7", "8", "9"],
         },
         {
           id: 6,
           name: "Group 6",
+          images: ["10", "11"],
+        },
+        {
+          id: 7,
+          name: "Group 7",
+          images: ["12", "13"],
+        },
+        {
+          id: 8,
+          name: "Group 8",
           images: ["14", "15"],
         },
       ],
@@ -62,7 +72,7 @@ export default {
 
 <template>
   <div class="flex px-5 py-5 md:px-12 md:py-10 text-amber-50 mx-3">
-    <!-- 左侧：显示图片 -->
+    <!-- left -->
     <div class="flex-1 flex flex-col items-center justify-center relative">
       <div class="w-full h-auto relative">
         <img
@@ -95,7 +105,7 @@ export default {
       </div>
     </div>
 
-    <!-- 右侧：进度条 -->
+    <!-- right -->
     <div class="flex flex-col items-center justify-center ml-5">
       <div
         v-for="item in items"
@@ -112,7 +122,6 @@ export default {
 </template>
 
 <style scoped>
-/* 调整图片左右点击区域样式 */
 .absolute {
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.1);
