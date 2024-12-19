@@ -8,7 +8,7 @@ export default {
           id: 1,
           name: "Personal Website",
           imageUrl: "portfolio_v1",
-          status: "Lilian's Personal Portfolio",
+          status: "Lilian's Portfolio",
           tech: "VueJS 3, Tailwind",
           github: "https://github.com/ln541758/portfolio",
           demo: "lilianlin.com",
@@ -17,7 +17,7 @@ export default {
           id: 2,
           name: "Trash-ID",
           imageUrl: "trash",
-          status: "Smart Trash Classification App",
+          status: "Smart Trash App",
           tech: "React Native, NodeJS, Firebase",
           github: "https://github.com/ln541758/Trash-ID",
           demo: "https://www.youtube.com/watch?v=HSr4WFZ8oRA&t=2s",
@@ -26,7 +26,7 @@ export default {
           id: 3,
           name: "Elevator Simulation",
           imageUrl: "elevator",
-          status: "Lilian's Personal Portfolio",
+          status: "MVC Simulation",
           tech: "Java, MVC",
           github: "https://github.com/ln541758/elevator",
         },
@@ -40,9 +40,9 @@ export default {
         },
         {
           id: 5,
-          name: "Museum Exibition",
+          name: "Museum Exhibition",
           imageUrl: "museum",
-          status: "Art Museum of Chicago",
+          status: "Streamlit App",
           tech: "Python, Streamlit",
           github: "https://github.com/ln541758/museum-Streamlit",
           demo: "https://www.youtube.com/watch?v=LFVhcXzLEqg",
@@ -51,7 +51,7 @@ export default {
           id: 6,
           name: "VR Agent",
           imageUrl: "agent",
-          status: "VR agent in Wayfinding",
+          status: "Wayfinding Tool",
           tech: "C#, Unity",
           demo: "https://www.youtube.com/watch?v=T98iUUEtgf4",
         },
@@ -59,7 +59,7 @@ export default {
           id: 7,
           name: "VR in Wayfinding",
           imageUrl: "VR",
-          status: "Virtual Reality in PVG Airport",
+          status: "VR Navigation",
           tech: "C#, Unity",
           demo: "https://www.youtube.com/watch?v=X7dtLxdXF2g",
         },
@@ -67,7 +67,7 @@ export default {
           id: 8,
           name: "Signboard Automation",
           imageUrl: "sign",
-          status: "Signboard Automation in PVG Airport",
+          status: "Design Tool",
           tech: "Python, Grasshopper",
           demo: "https://www.youtube.com/watch?v=LoJuy3P2OE8",
         },
@@ -75,7 +75,7 @@ export default {
           id: 9,
           name: "Bubble Game",
           imageUrl: "bubble",
-          status: "2D Game Design",
+          status: "2D Game",
           tech: "C#, Unity",
           demo: "https://www.youtube.com/shorts/8zBmLFuKu88",
         },
@@ -116,7 +116,7 @@ export default {
                     loading="lazy"
                     decoding="async"
                     data-nimg="1"
-                    class="drop-shadow-xl rounded rounded-xl"
+                    class="drop-shadow-xl rounded rounded-xl object-cover w-96 h-36"
                     :src="'/img/portfolio-' + item.imageUrl + '.png'"
                   />
                 </div>
@@ -141,7 +141,7 @@ export default {
                       class="flex cursor-pointer items-end gap-2 text-primary"
                     >
                       <a
-                        v-if="item.github !== 'null'"
+                        v-if="item.github"
                         :href="item.github"
                         target="_blank"
                         rel="noreferrer"
@@ -165,7 +165,7 @@ export default {
                         </svg>
                       </a>
                       <a
-                        v-if="item.demo !== 'null'"
+                        v-if="item.demo && item.demo.includes('youtube.com')"
                         :href="item.demo"
                         target="_blank"
                         rel="noreferrer"
