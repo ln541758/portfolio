@@ -59,7 +59,7 @@ export default {
     return {
       toRotate: [
         "Full-stack Engineer",
-        "CAD Researcher",
+        "HCI Researcher",
         "Architectural Designer",
       ],
       period: 2000,
