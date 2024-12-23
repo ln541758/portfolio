@@ -29,12 +29,14 @@
               src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png"
               alt="github"
           /></a>
-          <a href="https://scholar.google.com/citations?user=DwFzkCcAAAAJ" target="_blank"
+          <a
+            href="https://scholar.google.com/citations?user=DwFzkCcAAAAJ"
+            target="_blank"
             ><img
               class="w-9 rounded-full"
               src="https://img.icons8.com/ios/50/google-scholar--v2.png"
               alt="google_scholar"
-              style="filter: invert(1); "
+              style="filter: invert(1)"
           /></a>
         </div>
         <div
@@ -103,8 +105,11 @@
       <router-link to="/about" class="text-gray-300 hover:text-white"
         >About</router-link
       >
-      <router-link to="/portfolio" class="text-gray-300 hover:text-white"
+      <router-link to="/projects" class="text-gray-300 hover:text-white"
         >Projects</router-link
+      >
+      <router-link to="/portfolio" class="text-gray-300 hover:text-white"
+        >Portfolio</router-link
       >
       <router-link to="/blog" class="text-gray-300 hover:text-white"
         >Research</router-link
